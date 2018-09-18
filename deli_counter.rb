@@ -1,6 +1,6 @@
 # Write your code here.
 
-katz_deli = []
+katz_deli = ["joe", "bob", "ira"]
 number = 0
 
 def take_a_number(katz_deli)
@@ -36,3 +36,6 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   end
 end
+
+take_a_number(katz_deli)
+now_serving(katz_deli)
