@@ -36,5 +36,5 @@ def now_serving(katz_deli)
   end
 end
 
-take_a_number(katz_deli)
+take_a_number(katz_deli) *2 
 now_serving(katz_deli)
