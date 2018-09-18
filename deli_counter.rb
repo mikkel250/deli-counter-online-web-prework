@@ -1,10 +1,11 @@
 # Write your code here.
 
 katz_deli = []
+number = 0
 
 def take_a_number(katz_deli)
-  number = (katz_deli.length + 1)
-  puts "Welcome, #{new_person}. You are number #{katz_deli.length} in line."
+  number += 1
+  puts "Welcome. You are number #{number} in line."
 end
 
 def line(katz_deli)
