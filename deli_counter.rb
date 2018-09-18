@@ -1,7 +1,7 @@
 # Write your code here.
 
 katz_deli = ["joe", "bob", "ira"]
-
+number_array
 
 def take_a_number(katz_deli)
   number = katz_deli.length + 1
