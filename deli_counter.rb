@@ -6,6 +6,7 @@ number = 0
 def take_a_number(katz_deli)
   number += 1
   puts "Welcome. You are number #{number} in line."
+  number
 end
 
 def line(katz_deli)
@@ -26,7 +27,9 @@ end
 =end
 def now_serving(katz_deli)
   if !katz_deli.empty?
-    puts "Currently serving #{katz_deli.shift}."
+    puts "Currently serving #{number}."
+    number -= 1
+    katz_deli.shift
     
   else
     puts "There is nobody waiting to be served!"
