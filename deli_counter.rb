@@ -36,5 +36,5 @@ def now_serving(katz_deli)
   end
 end
 
-(take_a_number(katz_deli)) * 2 
+3.times { take_a_number(katz_deli)}
 now_serving(katz_deli)
