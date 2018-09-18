@@ -2,6 +2,11 @@
 
 katz_deli = []
 
+def take_a_number(katz_deli)
+  katz_deli << new_person
+  puts "Welcome, #{new_person}. You are number #{katz_deli.length} in line."
+end
+
 def line(katz_deli)
   line = []
   katz_deli.each.with_index { |x, i| line.push(" #{i + 1}. #{x}") }
@@ -12,11 +17,12 @@ def line(katz_deli)
   end
 end
 
+=begin
 def take_a_number(katz_deli, new_person)
   katz_deli << new_person
   puts "Welcome, #{new_person}. You are number #{katz_deli.length} in line."
 end
-
+=end
 def now_serving(katz_deli)
   if !katz_deli.empty?
     puts "Currently serving #{katz_deli.shift}."
