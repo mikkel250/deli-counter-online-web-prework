@@ -1,10 +1,10 @@
 # Write your code here.
 
 katz_deli = ["joe", "bob", "ira"]
-number_array
+number_array = []
 
 def take_a_number(katz_deli)
-  number = katz_deli.length + 1
+  number_array << katz_deli.length + 1
   puts "Welcome. You are number #{number} in line."
   number
 end
