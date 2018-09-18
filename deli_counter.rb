@@ -1,7 +1,7 @@
 # Write your code here.
 
 katz_deli = []
-
+number = 0
 
 def take_a_number(katz_deli)
   number = 0
