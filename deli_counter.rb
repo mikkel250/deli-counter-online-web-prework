@@ -3,7 +3,7 @@
 katz_deli = []
 
 def take_a_number(katz_deli)
-  katz_deli << new_person
+  number = (katz_deli.length + 1)
   puts "Welcome, #{new_person}. You are number #{katz_deli.length} in line."
 end
 
